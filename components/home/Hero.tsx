@@ -34,9 +34,14 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-md">
           <div className="relative rounded-sm border border-stone/25 bg-ink-soft p-6 sm:p-8">
             <CornerMarks />
-            <p className="text-xs font-medium uppercase tracking-[0.25em] text-stone">
-              Tender Comparison · Hamilton, 4 bed
-            </p>
+            <div className="flex items-center justify-between gap-3">
+              <p className="text-xs font-medium uppercase tracking-[0.25em] text-stone">
+                Tender Comparison · Hamilton, 4 bed
+              </p>
+              <span className="shrink-0 rounded-sm border border-stone/25 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-stone">
+                Example
+              </span>
+            </div>
 
             <div className="mt-6 divide-y divide-stone/10">
               <div className="flex items-center justify-between py-3">
@@ -70,8 +75,9 @@ export function Hero() {
             </div>
 
             <p className="mt-6 border-t border-stone/10 pt-4 text-xs leading-relaxed text-stone">
-              Buildify reviewed three tenders for the same brief — identifying $69,000 in
-              potential savings and flagging two contract clauses for negotiation.
+              Illustrative example: Buildify reviewed three tenders for the same brief —
+              identifying $69,000 in potential savings and flagging two contract clauses
+              for negotiation.
             </p>
           </div>
         </div>
